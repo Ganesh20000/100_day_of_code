@@ -32,6 +32,8 @@ arr = np.array([[[1,2,3],
 
 
 
+
+
 #for row  axis 1 
 new_arr = np.delete(arr,1,axis=1)
 print(new_arr)
