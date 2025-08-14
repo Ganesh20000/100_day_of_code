@@ -70,8 +70,42 @@ print(even)
 
 mask= number>5
 print("number greater than 5 are",number[mask])
-
+print("_"*50)
 
 print(matrix)
 mask_2 = matrix>7
 print("grather than7 ",matrix[mask_2])
+print("_"*50)
+#fancy indexing and np.where 
+arr = np.array([1,2,3,4,5,6,7,8,9])
+print(arr[[2,3,5]])
+print("_"*50)
+indices =[2,3,5]
+print(arr[indices])
+
+#where result 
+print("_"*50)
+where_result = np.where(arr>=8)
+print("where clause",arr[where_result])
+
+print("_"*50)
+#condiiton array 
+
+num = np.arange(20)
+print(num)
+condition = np.where(num>5, num*2,num)
+print(condition)
+print("_"*50)
+con2 = np.where(num>15 ,"true","false")
+print(con2)
+print("_"*50)
+# adding and removing data
+
+arr1 = np.array([1,2,3])
+arr2=np.array([2,5,6])
+
+combined =np.concatenate((arr1, arr2))
+print(combined)
+
+com = np.concatenate((num,number))
+print(com)
