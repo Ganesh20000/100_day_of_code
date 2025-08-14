@@ -108,4 +108,40 @@ combined =np.concatenate((arr1, arr2))
 print(combined)
 
 com = np.concatenate((num,number))
-print(com)
+print(com )
+
+#array compatibility
+print(matrix.shape==number.shape)
+
+arr1 =np.array([[1,2,3],
+               [4,5,6],
+               [7,8,9]])
+
+arr2= np.array([[10,11,12],
+               [13,15,14],
+               [16,18,19]])
+
+v = np.vstack((arr1,arr2));
+print(v)
+
+h = np.hstack((arr1,arr2))
+print(h);
+
+print("_"*50)
+hh = np.reshape(h,(6,3))
+print(hh)
+
+#delete 
+
+d = np.delete(arr1,1)
+print(d)
+
+two_2d =np.array([[1,2,3],
+                  [4,5,6],
+                  [7,8,9]])
+
+delete_2d = np.delete(two_2d,1,axis=0)
+print(delete_2d)
+
+delete_3d = np.delete(two_2d,0,axis=1)
+print(delete_3d);
