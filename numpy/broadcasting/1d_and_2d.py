@@ -6,3 +6,5 @@ vector = np.array([7,8,9]);
 result = matrix+vector;
 
 print(result)
+
+# Broadcasting in NumPy allows us to perform arithmetic operations on arrays of different shapes without reshaping them.
