@@ -1,2 +1,1 @@
-com = np.concatenate((num,number))
-# print(com )
+import tensorflow as tp
