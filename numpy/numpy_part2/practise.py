@@ -31,8 +31,9 @@ print(np.sum(sales,axis=1))
 
 # axis 0 means column here
 print(sum(sales))
+
 yearly_sales =np.sum(sales[:,1:],axis=0) # column sum exclude id 
-print(yearly_sales)
+print("yearly sales ", yearly_sales)
 
 #minimum sale per year 
 # row wise
