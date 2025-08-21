@@ -8,5 +8,5 @@ print(np.vstack((arr1,arr2)));
 print(np.hstack((arr1,arr2)));
 
 print("_"*50);
-
+ 
 print(np.concatenate((arr1,arr2),axis=0 ))
