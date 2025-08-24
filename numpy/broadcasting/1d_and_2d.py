@@ -1,3 +1,4 @@
+#%%
 import numpy as np 
 
 matrix = np.array([[1,2,3],[4,5,6]])
@@ -8,3 +9,4 @@ result = matrix+vector;
 print(result)
 
 # Broadcasting in NumPy allows us to perform arithmetic operations on arrays of different shapes without reshaping them.
+# %%
